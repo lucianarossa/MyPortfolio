@@ -1,0 +1,331 @@
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: 1;
+    opacity: .85;
+}
+
+.title-container {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-video {
+    object-fit: cover;
+    width: 100%;
+    height: 135vh;
+    position: absolute;
+    z-index: -4;
+    top: 0;
+}
+
+.cover-welcome {
+    width: 100%;
+    margin-left: 8rem;
+    font-size: 40px;
+    font-family: 'Seaweed Script', cursive;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    z-index: 2;
+    text-shadow: 0px 15px 40px white
+}
+
+.cover-title {
+    width: 100%;
+    font-size: 55px;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D0E3D7;
+    z-index: 2;
+    text-shadow: 0px 15px 20px grey;
+}
+
+
+.cover-subt {
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 0px 15px 20px grey;
+}
+
+.devices {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    gap: 2rem;
+}
+
+.devices-style {
+    height: 3.5rem;
+}
+
+.deviceplus {
+    font-family: "Paytone One";
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 15px 20px grey;
+}
+
+.image-me {
+    height: 25rem;
+}
+.buttonHero-Container{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.button-hero {
+    margin-top: 5rem;
+    font-family: "Paytone One";
+    position: relative;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: #AB5168;
+}
+
+.button-hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button-hero:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-hero::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.button-hero::after {
+    background-color: #fff;
+}
+
+.button-hero:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/*ABOUT ME SECTION */
+
+.aboutme-container {
+    height: 35vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 15%);
+}
+
+.softskills {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    font-family: "Paytone One";
+}
+
+.softskills-team{
+    margin-top: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+    font-family: "Paytone One";
+}
+
+.buttons-container{
+    display: flex;
+    gap: 4rem;
+}
+
+.button-nav{
+    margin-top: 5rem;
+    font-family: "Paytone One";
+    position: relative;
+    font-size: 15px;
+    width: 15rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-weight: 500;
+    color: black;
+    background-color: #D0E3D7;
+}
+
+
+/*TECHNOLOGIES*/
+
+.Tech-Container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    margin-bottom: 4rem;
+}
+
+.techlogos-style{
+    height: 6rem;
+    width: 6rem;
+}
+
+/*PROJECTS*/
+
+.Projects-Container{
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 15%); 
+}
+
+.firstAnimation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 380px;
+}
+
+.firstAnimation-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+}
+
+.card {
+    position: relative;
+    width: 450px;
+    height: 254px;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  .card-mobile{
+    width: 220px;
+    height: 350px;
+  }
+  
+  .card:hover {
+    width: 450px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    background-color: #dfdfdf;
+    transition: all .5s;
+  }
+
+  .card-mobile:hover{
+    width: 220px;
+  }
+  
+  .secondAnimation {
+    --hoverContorno: #959595;
+  }
+  
+  .secondAnimation:hover,
+  .secondAnimation:focus {
+    -webkit-animation: cardAnimacion 1.4s;
+    animation: cardAnimacion 1.4s;
+    box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
+    border-radius: 20px;
+  }
+  
+  @-webkit-keyframes cardAnimacion {
+    0% {
+      box-shadow: 0 0 0 0 var(--hoverContorno);
+    }
+  }
+  
+  @keyframes cardAnimacion {
+    0% {
+      box-shadow: 0 0 0 0 var(--hoverContorno);
+    }
+  }
+
+  .card-title{
+    font-family: "Paytone One";
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    color: black;
+    letter-spacing: 2px;
+  }
+
+  .cardVideo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3vh;
+  }
+  
+  
+  
+  
+

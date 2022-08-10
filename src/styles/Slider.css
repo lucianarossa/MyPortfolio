@@ -1,18 +1,19 @@
-/* .carousels-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    vertical-align: center;
-} */
 
 .carousel-container{
     display: flex;
     vertical-align: center;
     align-items: center;
     background-color: black;
-    padding: 30px 0 30px 0;
+    padding: 4rem 0 4rem 0;
 
+}
+
+.slides-box{
+    display: flex;
+    width: 55%;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-title{
@@ -21,6 +22,11 @@
     text-align: center;
     font-size: 30px;
     padding: 0 100px 0 100px;
+}
+
+.carousel-title > img{
+    height: 4rem;
+    margin-top: 1rem;
 }
 
 .slide-container-web{
@@ -41,6 +47,7 @@
     cursor: pointer;
 }
 
+
 .carousel-video {
     height: 100%;
     width: 100%;
@@ -55,12 +62,16 @@
 }
 
 .slide-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
     background-color: black;
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70%;
-    padding-left: 30px;
+    width: 80%;
+    padding-left: 20px;
     border-bottom-left-radius: 20px;
     opacity: 0.8;
 }
@@ -68,6 +79,42 @@
 .slide-desc > span{
     color: white;
     display: block;
-    font-size: 18px;
-    padding: 20px 0 20px 10px;
+    font-size: 15px;
+    padding: 15px 0 15px 0px;
+}
+
+.git-icon{
+    color: white !important;
+    font-size: 8px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    border-bottom: 4px solid transparent;
+}
+
+.github:hover{
+    border-color: white !important;
+    transition: all 0.3s ease-out;
+}
+
+
+@media screen and (max-width: 960px){
+    .carousel-container{
+        flex-direction: column;
+    }
+    .carousel-title{
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        padding: 30px 10px 100px 10px;
+    }
+    .slides-box{
+        flex-direction: column;
+        width: 90%;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
 }

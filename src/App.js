@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Slider from "./components/Slider";
 import Info from "./components/Info";
+import Technologies from "./components/Technologies";
 import Footer from "./components/Footer";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <About/>
     <Slider/>
     <Info/>
+    <Technologies/>
     <Footer/>
     </div>
   );

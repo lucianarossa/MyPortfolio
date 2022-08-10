@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="about-container">
             <div className="about-desc">
-                <h3>Dejame contarte algo sobre mí</h3>
+                <h3>Algo sobre mí ...</h3>
                 <p>✨ Entusiasta, Perseverante y Apasionada ✨</p>
                 <p>✨ Predispuesta, Responsable y Comprometida ✨</p>
             </div>

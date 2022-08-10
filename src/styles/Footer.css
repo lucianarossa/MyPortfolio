@@ -38,7 +38,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
-}
+} 
 
 .sns-links{
     display: grid;
@@ -63,4 +63,24 @@
     font-size: 18px;
     padding-left: 50px;
     color: white;
+}
+
+@media screen and (max-width:960px){
+    .sns-links{
+    margin: 2rem;
+    }
+    .linkedin, .github{
+        color: #d35872;
+        margin: 1rem;
+    }
+    .footer-contact > h3{
+        font-size: 20px;
+        width: 100%;
+    }
+    .footer-info > h1{
+        font-size: 50px;
+    }
+    .footer-info > p{
+        font-size: 30px;
+    }
 }

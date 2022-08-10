@@ -5,6 +5,8 @@ import "../styles/cover.css"
 function Technologies() {
     return (
         <div className="Tech-Container">
+            <h1 className="projects-title">TECNOLOGÍAS</h1>
+            <div className="imagetechcont">
             <img className="techlogos-style" src="https://i.imgur.com/0FaVJay.png" alt="react" />
             <img className="techlogos-style" src="https://i.imgur.com/S3mmmfw.png" alt="html" />
             <img className="techlogos-style" src="https://i.imgur.com/UelSMTF.png" alt="css" />
@@ -17,6 +19,7 @@ function Technologies() {
             <img className="techlogos-style" src="https://i.imgur.com/RVsMO1u.png" alt="git" />
             <img className="techlogos-style" src="https://i.imgur.com/u1cm4oO.png" alt="github" />
             <img className="techlogos-style" src="https://i.imgur.com/my2LijG.png" alt="bootstrap" />
+            </div>
         </div>
     )
 

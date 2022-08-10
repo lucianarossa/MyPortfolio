@@ -28,23 +28,10 @@
 .cover-video {
     object-fit: cover;
     width: 100%;
-    height: 135vh;
+    height: 150vh;
     position: absolute;
     z-index: -4;
     top: 0;
-}
-
-.cover-welcome {
-    width: 100%;
-    margin-left: 8rem;
-    font-size: 40px;
-    font-family: 'Seaweed Script', cursive;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: white;
-    z-index: 2;
-    text-shadow: 0px 15px 40px white
 }
 
 .cover-title {
@@ -62,13 +49,13 @@
 
 .cover-subt {
     width: 100%;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
     margin: 0;
     margin-bottom: 2rem;
     color: white;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Thasadith', sans-serif;
     text-shadow: 0px 15px 20px grey;
 }
 
@@ -153,7 +140,7 @@
 /*ABOUT ME SECTION */
 
 .aboutme-container {
-    height: 35vh;
+    height: 50vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.596);
     display: flex;
@@ -166,9 +153,10 @@
 .softskills {
     text-align: center;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    font-family: "Paytone One";
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
 }
 
 .softskills-team{
@@ -177,30 +165,8 @@
     letter-spacing: 2px;
     font-size: 25px;
     color: white;
-    font-family: "Paytone One";
-}
-
-.buttons-container{
-    display: flex;
-    gap: 4rem;
-}
-
-.button-nav{
-    margin-top: 5rem;
-    font-family: "Paytone One";
-    position: relative;
-    font-size: 15px;
-    width: 15rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 1em 2.5em;
-    display: inline-block;
-    border-radius: 6em;
-    transition: all .2s;
-    border: none;
-    font-weight: 500;
-    color: black;
-    background-color: #D0E3D7;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bolder;
 }
 
 
@@ -208,14 +174,20 @@
 
 .Tech-Container{
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 5rem;
-    margin-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.imagetechcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+    gap: 3rem;
 }
 
 .techlogos-style{
@@ -226,17 +198,26 @@
 /*PROJECTS*/
 
 .Projects-Container{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     width: 100%;
-    height: 170vh;
+    height: 185vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: white;
-    gap: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    gap: 2rem;
     box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 15%); 
+}
+
+.projects-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "paytone One";
+    color: black;
+    margin-bottom: 2rem;
 }
 
 .firstAnimation{
@@ -245,7 +226,8 @@
     justify-content: center;
     align-items: center;
     width: 500px;
-    height: 380px;
+    height: 350px;
+    margin-bottom: 2rem;
 }
 
 .firstAnimation-mobile{
@@ -309,12 +291,25 @@
   }
 
   .card-title{
-    font-family: "Paytone One";
+    font-family: 'Thasadith', sans-serif;
     text-align: center;
     margin-top: 2rem;
     width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 0px 15px 20px grey;
+  }
+
+
+  .card-text{
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    width: 100%;
     color: black;
-    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 1rem;
+    font-weight: bold;
   }
 
   .cardVideo{
@@ -324,8 +319,59 @@
     object-fit: cover;
     border-radius: 3vh;
   }
-  
-  
-  
-  
 
+  /*CONTACT*/
+
+  .container-principal{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .overlay-contact{
+    z-index: 1;
+  }
+
+  .contact-container{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .contact-title{
+    margin-bottom: 8rem;
+  }
+
+  .Contact-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Contact-Logo{
+    height: 2rem;
+    margin-right: 1rem;
+  }
+
+  .Contact-text{
+    font-size: 25px;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  .contact-video{
+    height: 100vh;
+    z-index: -10;
+  }
+
+  .button-contact{
+    margin-left: 4rem;
+  }
+
+  

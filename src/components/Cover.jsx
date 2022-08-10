@@ -9,7 +9,6 @@ function Cover() {
             </video>
             <div className="overlay"></div>
             <div className="title-container">
-                <h1 className="cover-welcome">¡ hola ! 🖐️ soy</h1>
                 <h1 className="cover-title">Luciana Rossa</h1>
                 <h2 className="cover-subt">FullStack Developer</h2>
                 <div className="devices">

@@ -22,7 +22,8 @@
 
 .input{
     width: 50%;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
     height: 2rem;
     padding-left: 2rem;
     font-size: 15px;
@@ -32,6 +33,7 @@
 .input-textarea{
     width: 50%;
     border-radius: 20px;
+    border: 2px solid black;
     height: 8rem;
     resize: none;
     padding: 1rem 2rem 1rem 2rem;

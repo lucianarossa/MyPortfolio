@@ -11,27 +11,36 @@ const Slider = () => {
         </div>
         <div className='slides-box'>
           <div className='slide-container-web'>
-            <a href="https://github.com/lucianarossa/MyTinerary-React/" target="_blank" rel="noreferrer">
-              <video className="carousel-video" autoPlay loop muted>
-                <source src="https://i.imgur.com/zEfU0Dj.mp4" type='video/mp4' />
-              </video>
-              <div className='slide-desc'>
-                <span>MyTinerary</span>
+
+            <video className="carousel-video" autoPlay loop muted>
+              <source src="https://i.imgur.com/zEfU0Dj.mp4" type='video/mp4' />
+            </video>
+            <div className='slide-desc'>
+              <span>MyTinerary</span>
+              <a href="https://my-tinerary-rossa.herokuapp.com/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-globe web"></i>
+              </a>
+              <a href="https://github.com/lucianarossa/MyTinerary-React/" target="_blank" rel="noreferrer">
                 <i className='fab fa-github github git-icon'></i>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </div>
 
           <div className='slide-container-web'>
-            <a href="https://github.com/lucianarossa/Boxbonny-React/tree/frontend/" target="_blank" rel="noreferrer">
-              <video className="carousel-video" autoPlay loop muted>
-                <source src="https://i.imgur.com/1AsXsx0.mp4" type='video/mp4' />
-              </video>
-              <div className='slide-desc'>
-                <span>BoxBonny</span>
+            <video className="carousel-video" autoPlay loop muted>
+              <source src="https://i.imgur.com/1AsXsx0.mp4" type='video/mp4' />
+            </video>
+            <div className='slide-desc'>
+              <span>BoxBonny</span>
+              <a href="https://boxbonny.herokuapp.com/" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-globe web"></i>
+              </a>
+              <a href="https://github.com/lucianarossa/Boxbonny-React/tree/frontend/" target="_blank" rel="noreferrer">
                 <i className='fab fa-github github git-icon'></i>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </div>
 
         </div>
@@ -43,7 +52,7 @@ const Slider = () => {
           <img src="https://i.imgur.com/jcjteRs.png" alt="mobile" />
         </div>
         <div className='slides-box'>
-        <div className='slide-container-mobile'>
+          <div className='slide-container-mobile'>
             <a href="https://github.com/lucianarossa/MyTinerary-ReactNative/" target="_blank" rel="noreferrer">
               <video className="carousel-video" autoPlay loop muted>
                 <source src="https://i.imgur.com/5CXbgsd.mp4" type='video/mp4' />
@@ -66,7 +75,7 @@ const Slider = () => {
               </div>
             </a>
           </div>
-         
+
         </div>
 
       </div>

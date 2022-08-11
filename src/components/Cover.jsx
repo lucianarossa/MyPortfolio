@@ -4,7 +4,7 @@ import "../styles/cover.css"
 function Cover() {
     return (
         <div className="cover-container">
-            <video className="video" src="https://i.imgur.com/dSvGB9C.mp4" autoPlay loop muted />
+            <video className="video" src="https://i.imgur.com/W02yoKd.mp4" autoPlay loop muted />
             <h1>Luciana Rossa</h1>
             <p>FullStack Developer | Web | Mobile</p>
             <div className="devices-container">

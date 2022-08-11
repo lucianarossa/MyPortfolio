@@ -3,9 +3,11 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import { Link as LinkRouter } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 export const Form = () => {
+    const navigate = useNavigate()
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -15,6 +17,7 @@ export const Form = () => {
             .then((result) => {
                 e.target.reset()
                 toast("Gracias por tu mensaje 😁")
+                navigate("/")
             }, (error) => {
                 toast("Algo paso volvé a intentar 😞");
             });

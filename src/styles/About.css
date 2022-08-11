@@ -27,9 +27,17 @@
     font-size: 20px;
 }
 
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
 .cv-button{
-    width: 30%;
-    height: 4rem;
+    width: 10rem;
+    height: 3rem;
     align-self: center;
     margin-top: 2rem;
     border: unset;
@@ -69,14 +77,14 @@
 .cv-button > a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
 }
 
 .about-img {
-    width: 45%;
-    height: 180%;
+    width: 25rem;
+    height: 25rem;
     display: flex;
     align-self: center;
     overflow: hidden;
@@ -99,7 +107,8 @@
         text-align: center;
     }
     .about-img{
-        width: 100%;
+        width: 25rem;
+        height: 25rem;
         margin-bottom: 50px;
     }
     .about-img > img {
@@ -110,4 +119,55 @@
         text-align: center;
         font-size: 20px;
     }
+    .cv-button{
+        width: 20%;
+        height: 3rem;
+        margin: 1rem;
+    }
+    .buttons{
+        width: 100%;
+    }
 }
+
+@media screen and (max-width:1030px){
+    .about-img{
+        width: 25rem;
+        height: 25rem;
+        margin-bottom: 50px;
+    }
+    .about-desc > p {
+        width: 30rem;
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:770px){
+    .about-desc > p {
+        width: 100%;
+        text-align: center
+    }
+    .buttons{
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .buttons{
+        margin-top: 1rem;
+    }
+    .cv-button{
+        width: 10rem;
+        height: 3rem;
+        margin: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 430px){
+    .about-img{
+        width: 18rem;
+        height: 18rem;
+        margin-bottom: 50px;
+    }
+  }

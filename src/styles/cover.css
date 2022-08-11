@@ -61,4 +61,15 @@
   }
 }
 
+@media screen and (max-width: 600px){
+  .cover-container > h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .cover-container > p{
+    text-align: center;
+    font-size: 18px;
+    width: 85%;
+  }
+}
   

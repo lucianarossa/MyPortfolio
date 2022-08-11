@@ -13,8 +13,7 @@ const Footer = ({isScrolling}) => {
                 <div className='location-box'>
                 <i className="fa-solid fa-location-dot location"></i>
                 <p>Córdoba, Argentina</p>
-                </div>
-                
+                </div>   
             </div>
 
             <div className='footer-sns'>

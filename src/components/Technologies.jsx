@@ -22,7 +22,7 @@ function Technologies() {
                 <img src="https://i.imgur.com/u1cm4oO.png" alt="github" />
                 <img src="https://i.imgur.com/my2LijG.png" alt="bootstrap" />
             </div>
-        </div>
+        </div> 
     )
 
 

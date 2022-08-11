@@ -85,7 +85,7 @@
 
 .git-icon{
     color: white !important;
-    font-size: 8px;
+    font-size: 22px;
     margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -93,7 +93,7 @@
     border-bottom: 4px solid transparent;
 }
 
-.github:hover{
+.git-icon:hover{
     border-color: white !important;
     transition: all 0.3s ease-out;
 }

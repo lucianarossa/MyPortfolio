@@ -11,7 +11,7 @@ function Technologies() {
             <div className="img-container">
                 <img src="https://i.imgur.com/0FaVJay.png" alt="react" />
                 <img src="https://i.imgur.com/S3mmmfw.png" alt="html" />
-                <img src="https://i.imgur.com/UelSMTF.png" alt="css" />
+                <img src="https://i.imgur.com/Yj7DNj8.png" alt="css" />
                 <img src="https://i.imgur.com/4pBXhIi.png" alt="react-native" />
                 <img src="https://i.imgur.com/IDFdqFJ.png" alt="javascript" />
                 <img src="https://i.imgur.com/AmXk8Vi.png" alt="redux" />

@@ -9,6 +9,9 @@ function About() {
                 <h3>Algo sobre mí ...</h3>
                 <p>✨ Entusiasta, Perseverante y Apasionada ✨</p>
                 <p>✨ Predispuesta, Responsable y Comprometida ✨</p>
+                <button className="cv-button">
+                    <a href="./LucianaRossa.pdf" target="_blank" rel="noreferrer">MI CV</a>
+                </button>
             </div>
             <div className="about-img">
                 <img src="https://i.imgur.com/68eWoU4.png" alt="aboutme" />

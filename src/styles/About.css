@@ -27,6 +27,53 @@
     font-size: 20px;
 }
 
+.cv-button{
+    width: 30%;
+    height: 4rem;
+    align-self: center;
+    margin-top: 2rem;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #d35872;
+    position: relative;
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cv-button::before{
+    width: 30%;
+    height: 4rem;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    transition: all 250ms
+}
+
+.cv-button:hover{
+    color: #e8e8e8;
+}
+
+.cv-button:hover::before{
+    width: 100%;
+}
+
+.cv-button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .about-img {
     width: 45%;
     height: 180%;

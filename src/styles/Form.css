@@ -95,3 +95,20 @@
     border-color: #d35872;
     transition: all 0.3s ease-out;
 }
+
+@media screen and (max-width:770px){ 
+    .input{
+        width: 70%;
+        padding-left: 1rem;
+    }
+    
+    .input-textarea{
+        width: 70%;
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 15px;
+    }
+    .label{
+        width: 70%;
+        padding-top: 1rem;
+    }
+}

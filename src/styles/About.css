@@ -43,7 +43,7 @@
     border: unset;
     border-radius: 15px;
     color: #212121;
-    z-index: 1;
+    z-index: 0;
     background: #d35872;
     position: relative;
     transition: all 250ms;

@@ -14,6 +14,7 @@ function Technologies() {
                 <img src="https://i.imgur.com/Yj7DNj8.png" alt="css" />
                 <img src="https://i.imgur.com/4pBXhIi.png" alt="react-native" />
                 <img src="https://i.imgur.com/IDFdqFJ.png" alt="javascript" />
+                <img src="https://i.imgur.com/ZqkQ0Fi.png" alt="typescript" />
                 <img src="https://i.imgur.com/AmXk8Vi.png" alt="redux" />
                 <img src="https://i.imgur.com/2THVOP5.png" alt="nodejs" />
                 <img src="https://i.imgur.com/NmKQPAz.png" alt="expressjs" />
